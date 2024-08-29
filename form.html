@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+    <pre><p class="abc">
+    Registration
+    Form
+        </p>
+    </pre>
+    <div class="container">
+        <form class="registration-form">
+            <h2>Registration Form</h2>
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name">
+            </div>
+            <div class="input-group">
+                <label >Email Address</label>
+                <input type="email" placeholder="Enter email address">
+            </div>
+            <div class="input-group">
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter mobile number" >
+            </div>
+            <div class="input-group">
+                <label>Birth Date</label>
+                <input type="date"  name="birthDate">
+            </div>
+            <div class="input-group gender">
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male" >
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label>Female</label>
+                <input type="radio" id="preferNot" name="gender" value="preferNot">
+                <label>Prefer not to say</label>
+            </div>
+            <div class="input-group">
+                <label>Address</label>
+                <input type="text"placeholder="Enter address">
+            </div>
+            <div class="input-group">
+                <label >Country</label>
+                <select id="country" name="country" required>
+                    <option value="">Country</option>
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+                <input type="text"placeholder="Enter postal code">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+   <!--  <script src="day4.js"></script>  -->
+</body>
+</html>
